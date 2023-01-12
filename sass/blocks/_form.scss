@@ -1,0 +1,145 @@
+.form-validation {
+    padding-top: 100px ;
+    padding-left: 150px;
+    background-color: rgb(0, 191, 255);
+    box-shadow: rgba(0, 191, 255) 0px 2px 100px 0px;
+    margin-bottom: 50px;
+}
+
+.js__result {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.js__result2 {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.js__result3 {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+
+.js__result4 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    transform: translateX(-40px);
+}
+
+.form__title {
+    color: skyblue;
+    font-size: 32px;
+    font-weight: 400;
+
+    &::after {
+        display: block;
+        width: 50px;
+        height: 2px;
+        margin-left: 80px;
+        background-color: skyblue;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        content: "";
+    }
+
+}
+
+.box {
+    max-width: 400px;
+    transform: translate(450px, -450px);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.js__input1 {
+  display: block;
+  min-height: 50px;
+  min-width: 400px;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  outline: none;
+  border-radius: 4px;
+}
+
+// .js__input1:hover {
+//   box-shadow:
+//     rgba(0, 191, 255) 0px 18px 36px -18px inset;
+// }
+// .js__input2:hover {
+//   box-shadow:
+//     rgba(0, 191, 255) 0px 18px 36px -18px inset;
+// }
+// .js__input3:hover {
+//   box-shadow: 
+//     rgba(0, 191, 255) 0px 18px 36px -18px inset;
+// }
+
+// .js__textarea:hover {
+//   box-shadow: 
+//     rgba(0, 191, 255) 0px 18px 36px -18px inset;
+// }
+
+.js__input2 {
+  display: block;
+  min-height: 50px;
+  min-width: 400px;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  outline: none;
+  border-radius: 4px;
+}
+.js__input3 {
+  display: block;
+  min-height: 50px;
+  min-width: 400px;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  outline: none;
+  border-radius: 4px;
+}
+
+.js__textarea {
+  display: block;
+  min-width: 400px;
+  min-height: 150px;
+  outline: none;
+  resize: vertical;
+  margin-bottom: 10px;
+  transition: all 0.3s linear;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  min-height: 40px;
+  min-width: 400px;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+
+.btn:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

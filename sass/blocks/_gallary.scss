@@ -1,0 +1,45 @@
+.gallary {
+    box-shadow: rgba(0, 191, 255) 0px 2px 100px 0px;
+    background-color: rgb(0, 191, 255);
+    padding: 30px;
+    margin-bottom: 150px;
+}
+
+.gallary__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallary__link {
+    margin: 10px;
+    border: 1px solid orange;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.gallary__pic {
+    transition: all 0.3s ease;
+}
+
+.gallary__title {
+    font-size: 32px;
+    color: darkblue;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+
+    &::after {
+        display: block;
+        width: 60px;
+        height: 3px;
+        background-color: darkblue;
+        margin: 10px auto;
+        content: "";
+    }
+}
+
+.gallary__link .gallary__pic:hover {
+    transform: scale(1.1);
+}

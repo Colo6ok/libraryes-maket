@@ -1,0 +1,149 @@
+.services {
+    margin-bottom: 150px;
+}
+
+.services__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.inner__title {
+  text-transform: uppercase;
+  font-size: 44px;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.inner__desc {
+  font-size: 20px;
+  color: #ccc;
+  &::after {
+    display: block;
+    width: 60px;
+    height: 5px;
+    margin: 10px auto;
+    background-color: orangered;
+    content: "";
+  }
+}
+
+.services__box {
+  min-width: 350px;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px 50px;
+  margin-right: 40px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.services__title {
+  font-size: 26px;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.services__desc {
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+
+.services__link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #000;
+  padding: 15px 80px;
+  border-radius: 30px;
+  font-size: 12px;
+}
+
+.first {
+  transition: all 0.3s ease;
+}
+
+.first:hover svg {
+  fill: white;
+}
+
+.first:hover {
+  background-color: lightsteelblue;
+  border: none;
+  transform: scale(1.1);
+}
+
+.first:hover .services__link {
+  background-color: white;
+  color: lightsteelblue;
+}
+
+.first:hover .services__desc {
+  color: white;
+}
+
+.first:hover .services__title {
+  color: darkblue;
+}
+
+.second {
+  transition: all 0.3s ease;
+}
+
+.second:hover svg {
+  fill: white;
+}
+
+.second:hover {
+  background-color: pink;
+  border: none;
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
+.second:hover .services__desc {
+  color: white;
+}
+
+.second:hover .services__link {
+  background-color: white;
+  color: pink;
+}
+
+.second:hover .services__title {
+  color: brown;
+}
+
+.theard {
+  transition: all 0.3s ease;
+}
+
+.theard:hover svg {
+  fill: white;
+}
+
+.theard:hover {
+  background-color: lightcoral;
+  border: none;
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
+.theard:hover .services__desc {
+  color: white;
+}
+
+.theard:hover .services__link {
+  background-color: white;
+  color: lightcoral;
+}
+
+.theard:hover .services__title {
+  color: brown;
+}

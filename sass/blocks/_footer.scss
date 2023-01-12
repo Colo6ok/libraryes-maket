@@ -1,0 +1,36 @@
+.site-footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 200px;
+    padding-top: 50px;
+}
+
+.footer__desc {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+.footer__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 18px;
+
+    &:hover {
+        text-decoration: underline;
+        color: #00bfff;
+    }
+}
